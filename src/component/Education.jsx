@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Plus, X, Trash2 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../component/ui/Button";
 import { Input } from "./ui/Input";
 import { Textarea } from "./ui/Textarea";
 
