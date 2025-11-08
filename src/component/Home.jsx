@@ -5,6 +5,7 @@ import SkillsTools from "./SkillsTools";
 import Education from "./Education";
 import Contact from "./Contact";
 import AboutMe from "./Aboutme";
+import Projects from "./Project";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       </main>
       <AboutMe />
       <SkillsTools />
+      <Projects />
       <Education />
       <Contact />
     </div>
