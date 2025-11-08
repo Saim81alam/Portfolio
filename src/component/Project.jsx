@@ -1,11 +1,7 @@
-import { useState } from "react";
-import { Plus, Trash2 } from "lucide-react";
 import { Button } from "./snipit/Button";
 
-import ProjectForm from "./ProjectForm";
-
 export default function Projects() {
-  const [projects, setProjects] = useState([
+  const projects = [
     {
       id: "1",
       title: "E-commerce Product Page",
@@ -36,19 +32,7 @@ export default function Projects() {
       githubLink: "#",
       image: "/pro.jpg",
     },
-  ]);
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleDeleteProject = (id) => {
-    setProjects(projects.filter((project) => project.id !== id));
-  };
-
-  const handleSaveProject = (newProject) => {
-    setProjects([...projects, newProject]);
-    setIsModalOpen(false);
-  };
-
+  ];
   return (
     <section
       id="projects"
@@ -71,13 +55,6 @@ export default function Projects() {
                   alt={project.title}
                   className="w-full h-full object-cover"
                 />
-                <button
-                  onClick={() => handleDeleteProject(project.id)}
-                  className="absolute top-3 right-3 bg-[#0a0a23]/80 text-white hover:text-[#ff004d] p-2 rounded-full transition-all opacity-0 group-hover:opacity-100"
-                  aria-label="Delete project"
-                >
-                  <Trash2 size={18} />
-                </button>
               </div>
 
               <div className="p-6">
@@ -117,23 +94,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-
-        <div className="flex justify-center mt-12 sm:mt-16">
-          <Button
-            onClick={() => setIsModalOpen(true)}
-            className="bg-[#ff004d] hover:bg-[#cc0039] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2"
-          >
-            <Plus size={20} />
-            Add Project
-          </Button>
-        </div>
       </div>
-
-      <ProjectForm
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        onSave={handleSaveProject}
-      />
     </section>
   );
 }
