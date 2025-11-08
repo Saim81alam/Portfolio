@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Plus, X, Trash2 } from "lucide-react";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
+import { Button } from "./snipit/Button";
+import { Input } from "./snipit/Input";
+import { Textarea } from "./snipit/Textarea";
 
 export default function Education() {
   const [educationList, setEducationList] = useState([
@@ -99,7 +99,6 @@ export default function Education() {
             ))}
           </div>
         </div>
-
         {/* Add Education Button */}
         <div className="flex justify-center mt-12 sm:mt-16">
           <Button
