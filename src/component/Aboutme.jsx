@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section
       id="about-me"
-      className="min-h-screen sm:min-h-[35%] bg-[#0a0a23] flex items-start sm:items-center py-15 sm:p-6 px-4 lg:px-8"
+      className="min-h-screen bg-[#0a0a23] flex items-start sm:items-center py-15 sm:p-6 px-4 lg:px-8"
     >
       <div className="max-w-4xl mx-auto w-full">
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 sm:mb-12">
