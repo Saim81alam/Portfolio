@@ -2,8 +2,8 @@ export default function Education() {
   const educationList = [
     {
       id: "1",
-      institution: "AltSchool Africa",
-      duration: "2023 - Present",
+      institution: " Raja Mahendra Pratap Singh University, Aligarh",
+      duration: "2021 - 2024",
       description:
         "Studying Software Engineering with focus on Frontend and Backend Development. Learning modern web technologies and best practices.",
     },
