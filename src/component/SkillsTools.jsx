@@ -45,10 +45,7 @@ export default function SkillsTools() {
           name: "Figma",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
         },
-        {
-          name: "Photoshop",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-        },
+
         {
           name: "Canva",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
