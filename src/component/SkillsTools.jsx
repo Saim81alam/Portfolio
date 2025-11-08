@@ -60,7 +60,7 @@ export default function SkillsTools() {
       skills: [
         {
           name: "GitHub",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+          icon: "https://e7.pngegg.com/pngimages/347/509/png-clipart-github-computer-icons-logo-github-angle-white.png",
         },
         {
           name: "VS Code",
