@@ -1,4 +1,4 @@
-import { Button } from "../src/component/ui/button";
+import { Button } from "../component/ui/button";
 
 export default function HeroContent() {
   return (
