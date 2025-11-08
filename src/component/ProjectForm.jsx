@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import { Button } from "./ui/Button";
-import { Input } from "./ui/Input";
-import { Textarea } from "./ui/Textarea";
+import { Button } from "./snipit/Button";
+import { Input } from "./snipit/Input";
+import { Textarea } from "./snipit/Textarea";
 
 export default function ProjectForm({ isOpen, onClose, onSave }) {
   const [formData, setFormData] = useState({

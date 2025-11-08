@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
-import { Button } from "./ui/Button";
+import { Button } from "./snipit/Button";
+
 import ProjectForm from "./ProjectForm";
 
 export default function Projects() {
