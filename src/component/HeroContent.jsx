@@ -1,4 +1,4 @@
-import { Button } from "../component/ui/Button";
+import { Button } from "./snipit/Button";
 
 export default function HeroContent() {
   return (
