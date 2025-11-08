@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Plus } from "lucide-react";
+import { Plus, Trash2 } from "lucide-react";
 import { Button } from "../component/ui/button";
 import ProjectForm from "./ProjectForm";
 
@@ -25,16 +25,6 @@ export default function Projects() {
       githubLink: "#",
       image: "/pro.jpg",
     },
-    {
-      id: "3",
-      title: "E-commerce Product Page",
-      description:
-        "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
-      technologies: ["Typescript", "HTML5", "TailwindCSS"],
-      liveDemo: "#",
-      githubLink: "#",
-      image: "/pro.jpg",
-    },
   ]);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,6 +32,9 @@ export default function Projects() {
   const handleSaveProject = (newProject) => {
     setProjects([...projects, newProject]);
     setIsModalOpen(false);
+  };
+  const handleDeleteProject = (id) => {
+    setProjects(projects.filter((project) => project.id !== id));
   };
 
   return (
@@ -66,6 +59,13 @@ export default function Projects() {
                   alt={project.title}
                   className="w-full h-full object-cover"
                 />
+                <button
+                  onClick={() => handleDeleteProject(project.id)}
+                  className="absolute top-3 right-3 bg-[#0a0a23]/80 text-white hover:text-[#ff004d] p-2 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                  aria-label="Delete project"
+                >
+                  <Trash2 size={18} />
+                </button>
               </div>
 
               <div className="p-6">

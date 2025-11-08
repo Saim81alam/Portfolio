@@ -55,7 +55,10 @@ export default function ProjectForm({ isOpen, onClose, onSave }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 animate-fadeIn">
-      <div className="bg-[#0a0a23] border-2 border-[#ff004d] rounded-2xl p-6 sm:p-8 w-full max-w-md relative max-h-[90vh] overflow-y-auto">
+      <div
+        id="proForm"
+        className="bg-[#0a0a23] border-2 border-[#ff004d] rounded-2xl p-6 sm:p-8 w-full max-w-md relative max-h-[90vh] overflow-y-auto"
+      >
         <button
           onClick={handleCancel}
           className="absolute top-4 right-4 text-white hover:text-[#ff004d] transition-colors"

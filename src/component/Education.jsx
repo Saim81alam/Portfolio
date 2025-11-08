@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Plus, X, Trash2 } from "lucide-react";
-import { Button } from "../component/ui/Button";
-import { Input } from "../component/ui/Input";
-import { Textarea } from "../component/ui/Textarea";
+import { Button } from "../component/ui/button";
+import { Input } from "../component/ui/input";
+import { Textarea } from "../component/ui/textarea";
 
 export default function Education() {
   const [educationList, setEducationList] = useState([
