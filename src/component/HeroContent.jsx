@@ -2,9 +2,9 @@ import { Button } from "./ui/button";
 
 export default function HeroContent() {
   return (
-    <div className="flex flex-col justify-center space-y-6 sm:space-y-8">
+    <div className="flex flex-col justify-center items-center space-y-6 sm:space-y-8">
       <div className="space-y-3 sm:space-y-4">
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-medium">
+        <h2 className="text-white text-xl sm:text-3xl md:text-3xl font-medium">
           Hello, I'm <span className="text-[#ff004d]">Sameer Alam</span>
         </h2>
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
