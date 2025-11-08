@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
-import { Button } from "../component/ui/button";
+import { Button } from "./ui/button";
 import ProjectForm from "./ProjectForm";
 
 export default function Projects() {
@@ -25,16 +25,27 @@ export default function Projects() {
       githubLink: "#",
       image: "/pro.jpg",
     },
+    {
+      id: "3",
+      title: "E-commerce Product Page",
+      description:
+        "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
+      technologies: ["Typescript", "HTML5", "TailwindCSS"],
+      liveDemo: "#",
+      githubLink: "#",
+      image: "/pro.jpg",
+    },
   ]);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleDeleteProject = (id) => {
+    setProjects(projects.filter((project) => project.id !== id));
+  };
+
   const handleSaveProject = (newProject) => {
     setProjects([...projects, newProject]);
     setIsModalOpen(false);
-  };
-  const handleDeleteProject = (id) => {
-    setProjects(projects.filter((project) => project.id !== id));
   };
 
   return (
@@ -51,9 +62,9 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="border-2 border-[#ff004d] rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#ff004d]/20"
+              className="border-2 border-[#ff004d] rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#ff004d]/20 group"
             >
-              <div className="bg-gray-200 h-48 sm:h-56">
+              <div className="bg-gray-200 h-48 sm:h-56 relative">
                 <img
                   src={project.image}
                   alt={project.title}
