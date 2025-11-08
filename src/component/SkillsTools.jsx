@@ -78,7 +78,10 @@ export default function SkillsTools() {
   ];
 
   return (
-    <section id="skills-tools" className="min-h-screen bg-[#0a0a23] py-16 ">
+    <section
+      id="skills-tools"
+      className="min-h-screen bg-[#0a0a23] py-15 sm:p-6 px-4 lg:px-8"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mb-12 sm:mb-16">
           Skills & Tools
