@@ -9,7 +9,7 @@ export default function Projects() {
         "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
       technologies: ["Typescript", "HTML5", "TailwindCSS"],
       liveDemo: "https://food-website-tasty-bite.vercel.app/",
-      githubLink: "#",
+      githubLink: "https://github.com/Saim81alam/Food_website-tastyBite-",
       image: "/testyBite.png",
     },
     {
@@ -18,19 +18,9 @@ export default function Projects() {
       description:
         "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
       technologies: ["Typescript", "HTML5", "TailwindCSS"],
-      liveDemo: "#",
-      githubLink: "#",
+      liveDemo: "https://gyme-website-goldie-gyme.vercel.app/",
+      githubLink: "https://github.com/Saim81alam/Gyme_website-Goldie_gyme-",
       image: "/gymWeb.png",
-    },
-    {
-      id: "3",
-      title: "E-commerce Product Page",
-      description:
-        "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
-      technologies: ["Typescript", "HTML5", "TailwindCSS"],
-      liveDemo: "#",
-      githubLink: "#",
-      image: "/pro.jpg",
     },
   ];
   return (
@@ -79,13 +69,13 @@ export default function Projects() {
                 <div className="flex gap-3">
                   <Button
                     onClick={() => window.open(project.liveDemo, "_blank")}
-                    className="flex-1 bg-[#ff004d] hover:bg-[#cc0039] text-white py-2 rounded-full text-sm font-medium transition-all duration-300"
+                    className="flex-1 bg-[#ff004d] hover:bg-[#cc0039] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor"
                   >
                     Live Demo
                   </Button>
                   <Button
                     onClick={() => window.open(project.githubLink, "_blank")}
-                    className="flex-1 bg-transparent border border-white hover:bg-white hover:text-[#0a0a23] text-white py-2 rounded-full text-sm font-medium transition-all duration-300"
+                    className="flex-1 bg-transparent border border-white hover:bg-white hover:text-[#0a0a23] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor"
                   >
                     GitHub Link
                   </Button>
