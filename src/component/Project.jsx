@@ -53,7 +53,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="max-w-[90%] h-full object-cover"
                 />
               </div>
 
