@@ -7,7 +7,14 @@ export default function Projects() {
       title: "Food Webstite ( TestyBite )",
       description:
         "A responsive food ordering web app that lets users explore dishes, view detailed menus, add items to their cart, and enjoy a smooth ordering experience.",
-      technologies: ["React-Js", "JavaScript", "TailwindCSS", "HTML5"],
+      technologies: [
+        "React-Js",
+        "React-Router-Dom",
+        "JavaScript",
+        "TailwindCSS",
+        "Firebase",
+        "HTML5",
+      ],
       liveDemo: "https://food-website-tasty-bite.vercel.app/",
       githubLink: "https://github.com/Saim81alam/Food_website-tastyBite-",
       image: "/testyBite.png",
@@ -19,9 +26,9 @@ export default function Projects() {
         "A modern and responsive gym web app where users can explore fitness products, switch gallery views, manage their cart, and view detailed item information effortlessly.",
       technologies: [
         "React-Js",
+        "React-Router-Dom",
         "JavaScript",
         "TailwindCSS",
-        "Firebase",
         "HTML5",
       ],
       liveDemo: "https://gyme-website-goldie-gyme.vercel.app/",
