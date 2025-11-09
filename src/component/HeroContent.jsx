@@ -16,16 +16,16 @@ export default function HeroContent() {
       </div>
 
       <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
-        <Button className="bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
+        <Button className="cursor-pointer bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
           Download CV
         </Button>
         <Button
           onClick={() => window.open("https://github.com/Saim81alam", "_blank")}
-          className="bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto"
+          className=" cursor-pointer bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto"
         >
           GitHub Link
         </Button>
-        <Button className="bg-white hover:bg-[#ff004d] text-[#0a0a23] hover:text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
+        <Button className=" cursor-pointer bg-white hover:bg-[#ff004d] text-[#0a0a23] hover:text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
           Let's Talk
         </Button>
       </div>
