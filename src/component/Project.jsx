@@ -4,23 +4,23 @@ export default function Projects() {
   const projects = [
     {
       id: "1",
-      title: "E-commerce Product Page",
+      title: "Food Webstite ( TestyBite )",
       description:
         "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
       technologies: ["Typescript", "HTML5", "TailwindCSS"],
       liveDemo: "#",
       githubLink: "#",
-      image: "/pro.jpg",
+      image: "/testyBite.png",
     },
     {
       id: "2",
-      title: "E-commerce Product Page",
+      title: "Gyme WebSite (Goldie Gyme)",
       description:
         "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
       technologies: ["Typescript", "HTML5", "TailwindCSS"],
       liveDemo: "#",
       githubLink: "#",
-      image: "/pro.jpg",
+      image: "/gymWeb.png",
     },
     {
       id: "3",
