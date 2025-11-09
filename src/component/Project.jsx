@@ -14,7 +14,7 @@ export default function Projects() {
     },
     {
       id: "2",
-      title: "Gyme WebSite (Goldie Gyme)",
+      title: "Gyme WebSite (Gold Gyme)",
       description:
         "A responsive web app for browsing products, switching gallery views, managing a shopping cart, and viewing product information in a user-friendly interface.",
       technologies: ["Typescript", "HTML5", "TailwindCSS"],
