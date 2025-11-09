@@ -8,7 +8,7 @@ export default function HeroContent() {
           Hello, I'm <span className="text-[#ff004d]">Sameer Alam</span>
         </h2>
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          (Theezigner)
+          (TheEngineer)
         </h1>
         <p className="text-[#ff004d] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
           Frontend Developer
@@ -19,7 +19,10 @@ export default function HeroContent() {
         <Button className="bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
           Download CV
         </Button>
-        <Button className="bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">
+        <Button
+          onClick={() => window.open("https://github.com/Saim81alam", "_blank")}
+          className="bg-[#ff004d] hover:bg-[#ff3366] text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto"
+        >
           GitHub Link
         </Button>
         <Button className="bg-white hover:bg-[#ff004d] text-[#0a0a23] hover:text-white px-6 sm:px-8 py-5 sm:py-6 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto">

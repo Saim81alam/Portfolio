@@ -9,7 +9,7 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a23] border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex items-center justify-between">
         <div className="text-white font-bold text-base sm:text-lg md:text-xl">
-          THEEZIGNER'S <span className="text-[#ff004d]">PORTFOLIO</span>
+          THEENGINEER'S <span className="text-[#ff004d]">PORTFOLIO</span>
         </div>
 
         {/* Desktop Menu */}
