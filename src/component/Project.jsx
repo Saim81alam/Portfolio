@@ -69,13 +69,13 @@ export default function Projects() {
                 <div className="flex gap-3">
                   <Button
                     onClick={() => window.open(project.liveDemo, "_blank")}
-                    className="flex-1 bg-[#ff004d] hover:bg-[#cc0039] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor"
+                    className="flex-1 bg-[#ff004d] hover:bg-[#cc0039] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-pointer"
                   >
                     Live Demo
                   </Button>
                   <Button
                     onClick={() => window.open(project.githubLink, "_blank")}
-                    className="flex-1 bg-transparent border border-white hover:bg-white hover:text-[#0a0a23] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor"
+                    className="flex-1 bg-transparent border border-white hover:bg-white hover:text-[#0a0a23] text-white py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-pointer"
                   >
                     GitHub Link
                   </Button>
