@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       id: "1",
-      title: "Food Webstite ( TestyBite )",
+      title: "Food Website ( TestyBite )",
       description:
         "A responsive food ordering web app that lets users explore dishes, view detailed menus, add items to their cart, and enjoy a smooth ordering experience.",
       technologies: [
@@ -21,7 +21,7 @@ export default function Projects() {
     },
     {
       id: "2",
-      title: "Gyme WebSite (Gold Gyme)",
+      title: "Gym WebSite (Gold Gyme)",
       description:
         "A modern and responsive gym web app where users can explore fitness products, switch gallery views, manage their cart, and view detailed item information effortlessly.",
       technologies: [
