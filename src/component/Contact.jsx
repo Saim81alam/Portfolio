@@ -51,7 +51,7 @@ export default function Contact() {
 
         <div className="flex justify-center gap-6 sm:gap-8">
           <a
-            href="https://linkedin.com"
+            href="www.linkedin.com/in/sameer-alam-832875235"
             target="_blank"
             rel="noopener noreferrer"
             className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center hover:bg-[#ff004d] transition-all duration-300 hover:scale-110 group"
@@ -73,7 +73,7 @@ export default function Contact() {
             <Mail className="w-8 h-8 sm:w-10 sm:h-10 text-[#0a0a23] group-hover:text-white transition-colors" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Saim81alam"
             target="_blank"
             rel="noopener noreferrer"
             className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center hover:bg-[#ff004d] transition-all duration-300 hover:scale-110 group"
