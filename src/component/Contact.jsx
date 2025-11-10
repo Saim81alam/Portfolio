@@ -66,7 +66,7 @@ export default function Contact() {
             </svg>
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:s.a20198171@gmail.com"
             className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center hover:bg-[#ff004d] transition-all duration-300 hover:scale-110 group"
             aria-label="Email"
           >
