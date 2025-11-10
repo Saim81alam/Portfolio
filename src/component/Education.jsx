@@ -39,7 +39,7 @@ export default function Education() {
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 pr-8">
                     {entry.course}
                   </h3>
-                  <h2 className="text-xl sm:text-xl font-bold text-white-500 mb-2 pr-8">
+                  <h2 className="text-xl sm:text-xl font-bold text-[#ff004d] mb-2 pr-8">
                     {entry.institution}
                   </h2>
                   <p className="text-[#ff004d] text-base sm:text-lg font-semibold mb-3 sm:mb-4">
