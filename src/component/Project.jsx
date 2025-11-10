@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       id: "1",
-      title: "Food Website ( TestyBite )",
+      title: "Food WebSite ( TestyBite )",
       description:
         "A responsive food ordering web app that lets users explore dishes, view detailed menus, add items to their cart, and enjoy a smooth ordering experience.",
       technologies: [
