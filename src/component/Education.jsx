@@ -37,10 +37,10 @@ export default function Education() {
                 {/* Card */}
                 <div className="border-2 border-[#ff004d] rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#ff004d]/20 relative group">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 pr-8">
-                    {entry.institution}
-                  </h3>
-                  <h2 className="text-xl sm:text-xl font-bold text-white mb-2 pr-8">
                     {entry.course}
+                  </h3>
+                  <h2 className="text-xl sm:text-xl font-bold text-white-500 mb-2 pr-8">
+                    {entry.institution}
                   </h2>
                   <p className="text-[#ff004d] text-base sm:text-lg font-semibold mb-3 sm:mb-4">
                     {entry.duration}
